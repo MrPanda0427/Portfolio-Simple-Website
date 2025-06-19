@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{   
+   font-family: "Manrope", sans-serif;
+}
+.container{
+    padding: 30px;
+}
+.section-one{
+    background-color: #81b29a;
+    color: #f1faee;
+    padding: 20px;
+}
+:hover.section-one{
+  transform: scale(1.01); /* Grows to 101% size */
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-one__contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+:hover.section-one__contact{
+  transform: scale(1.03); /* Grows to 103% size */
+  transition: transform 0.3s ease-in-out;
+}
+.section-one__name{
+    font-size: 60px;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section-two, .section-three, .section-four, .section-five{
+    margin-top: 20px;
+}
+.section-two__desc, .section-three__list, .section-four__list, .section-five__desc{
+    margin-top: 20px;
+}
+.section-five{
+    background-color: #403d39;
+    color: white;
+    padding: 20px;
+}
+.section-three li ,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: #ccd5ae;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four{
+    background-color: #d4a373;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.section-three:hover,
+.section-four:hover {
+  transform: scale(1.03); /* Grows to 103% size */
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form__input, .contact-form__textarea, .contact-form__submit{
+    margin-top: 10px;
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+:hover.contact-form__input{
+    transform: scale(1.03);
+    transition: transform 0.3 ease-in-out;
+}
+.contact-form__textarea{
+    padding: 10px;
+    border: solid black 1px;
+}
+:hover.contact-form__textarea{
+    transform: scale(1.03);
+    transition: transform 0.3 ease-in-out;
+}
+.contact-form__submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1c0b3bc4;
+    border: none;
+    border: solid black 1px;
+}
+:hover.contact-form__submit{
+    transform: scale(1.03);
+    transition: transform 0.3 ease-in-out;
+}
